@@ -1,10 +1,14 @@
-const HeaderComonent=()=>(
-    <>
-    <div>
-        <h3 className="bg-primary text-white text-center">Amazone shoping</h3>
-    </div>
-    </>
-)
+function HeaderComonent(){
+    return(
+        <>
+        <div>
+            <h3 className="bg-primary text-white text-center">Amazone shoping</h3>
+        </div>
+        </>
+    )
+
+
+}
 const NagationComponent=()=>(
     <>
     <ul>
